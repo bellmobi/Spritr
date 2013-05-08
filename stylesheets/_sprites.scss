@@ -1,0 +1,578 @@
+$sprites-url: url("/images/sprites.png");
+
+$sprites-width: 460px;
+$sprites-height: 1864px;
+
+$sprites-acc_arrow-x: 0px;
+$sprites-acc_arrow-y: 0px;
+$sprites-acc_arrow-width: 24px;
+$sprites-acc_arrow-height: 30px;
+
+$sprites-acc_arrow_dark-x: 0px;
+$sprites-acc_arrow_dark-y: -30px;
+$sprites-acc_arrow_dark-width: 24px;
+$sprites-acc_arrow_dark-height: 30px;
+
+$sprites-acc_check-x: 0px;
+$sprites-acc_check-y: -60px;
+$sprites-acc_check-width: 24px;
+$sprites-acc_check-height: 30px;
+
+$sprites-acc_checking-x: 0px;
+$sprites-acc_checking-y: -90px;
+$sprites-acc_checking-width: 24px;
+$sprites-acc_checking-height: 30px;
+
+$sprites-acc_editing-x: 0px;
+$sprites-acc_editing-y: -120px;
+$sprites-acc_editing-width: 24px;
+$sprites-acc_editing-height: 30px;
+
+$sprites-acc_minus-x: 0px;
+$sprites-acc_minus-y: -150px;
+$sprites-acc_minus-width: 24px;
+$sprites-acc_minus-height: 30px;
+
+$sprites-acc_minus_dark-x: 0px;
+$sprites-acc_minus_dark-y: -180px;
+$sprites-acc_minus_dark-width: 24px;
+$sprites-acc_minus_dark-height: 30px;
+
+$sprites-acc_plus-x: 0px;
+$sprites-acc_plus-y: -210px;
+$sprites-acc_plus-width: 24px;
+$sprites-acc_plus-height: 30px;
+
+$sprites-acc_plus_dark-x: 0px;
+$sprites-acc_plus_dark-y: -240px;
+$sprites-acc_plus_dark-width: 24px;
+$sprites-acc_plus_dark-height: 30px;
+
+$sprites-amex-x: 0px;
+$sprites-amex-y: -270px;
+$sprites-amex-width: 50px;
+$sprites-amex-height: 36px;
+
+$sprites-apple-touch-icon-x: 0px;
+$sprites-apple-touch-icon-y: -306px;
+$sprites-apple-touch-icon-width: 114px;
+$sprites-apple-touch-icon-height: 114px;
+
+$sprites-best_site_award-x: 0px;
+$sprites-best_site_award-y: -420px;
+$sprites-best_site_award-width: 319px;
+$sprites-best_site_award-height: 459px;
+
+$sprites-bestmobilesite_landscape_banner-x: 0px;
+$sprites-bestmobilesite_landscape_banner-y: -879px;
+$sprites-bestmobilesite_landscape_banner-width: 460px;
+$sprites-bestmobilesite_landscape_banner-height: 45px;
+
+$sprites-bestmobilesite_portrait_banner-x: 0px;
+$sprites-bestmobilesite_portrait_banner-y: -924px;
+$sprites-bestmobilesite_portrait_banner-width: 300px;
+$sprites-bestmobilesite_portrait_banner-height: 45px;
+
+$sprites-bullet-x: 0px;
+$sprites-bullet-y: -969px;
+$sprites-bullet-width: 11px;
+$sprites-bullet-height: 12px;
+
+$sprites-cart-x: 0px;
+$sprites-cart-y: -981px;
+$sprites-cart-width: 100px;
+$sprites-cart-height: 100px;
+
+$sprites-disc-x: 0px;
+$sprites-disc-y: -1081px;
+$sprites-disc-width: 50px;
+$sprites-disc-height: 36px;
+
+$sprites-drop_down_green-x: 0px;
+$sprites-drop_down_green-y: -1117px;
+$sprites-drop_down_green-width: 11px;
+$sprites-drop_down_green-height: 6px;
+
+$sprites-flag-x: 0px;
+$sprites-flag-y: -1123px;
+$sprites-flag-width: 300px;
+$sprites-flag-height: 92px;
+
+$sprites-gw-10off-x: 0px;
+$sprites-gw-10off-y: -1215px;
+$sprites-gw-10off-width: 152px;
+$sprites-gw-10off-height: 30px;
+
+$sprites-gw-15percent-x: 0px;
+$sprites-gw-15percent-y: -1245px;
+$sprites-gw-15percent-width: 152px;
+$sprites-gw-15percent-height: 29px;
+
+$sprites-gw-discount-x: 0px;
+$sprites-gw-discount-y: -1274px;
+$sprites-gw-discount-width: 152px;
+$sprites-gw-discount-height: 29px;
+
+$sprites-gw-ov-x: 0px;
+$sprites-gw-ov-y: -1303px;
+$sprites-gw-ov-width: 174px;
+$sprites-gw-ov-height: 30px;
+
+$sprites-gw-x: 0px;
+$sprites-gw-y: -1333px;
+$sprites-gw-width: 174px;
+$sprites-gw-height: 30px;
+
+$sprites-icon_cart-x: 0px;
+$sprites-icon_cart-y: -1363px;
+$sprites-icon_cart-width: 20px;
+$sprites-icon_cart-height: 19px;
+
+$sprites-imoc_12705-x: 0px;
+$sprites-imoc_12705-y: -1382px;
+$sprites-imoc_12705-width: 320px;
+$sprites-imoc_12705-height: 80px;
+
+$sprites-logo-x: 0px;
+$sprites-logo-y: -1462px;
+$sprites-logo-width: 202px;
+$sprites-logo-height: 100px;
+
+$sprites-master-x: 0px;
+$sprites-master-y: -1562px;
+$sprites-master-width: 50px;
+$sprites-master-height: 36px;
+
+$sprites-menu-x: 0px;
+$sprites-menu-y: -1598px;
+$sprites-menu-width: 100px;
+$sprites-menu-height: 100px;
+
+$sprites-phone-x: 0px;
+$sprites-phone-y: -1698px;
+$sprites-phone-width: 24px;
+$sprites-phone-height: 30px;
+
+$sprites-search-x: 0px;
+$sprites-search-y: -1728px;
+$sprites-search-width: 100px;
+$sprites-search-height: 100px;
+
+$sprites-visa-x: 0px;
+$sprites-visa-y: -1828px;
+$sprites-visa-width: 50px;
+$sprites-visa-height: 36px;
+
+@mixin sprites-acc_arrow() {
+  background: url("/images/sprites.png") no-repeat 0px 0px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+@mixin sprites-acc_arrow_dark() {
+  background: url("/images/sprites.png") no-repeat 0px -30px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+@mixin sprites-acc_check() {
+  background: url("/images/sprites.png") no-repeat 0px -60px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+@mixin sprites-acc_checking() {
+  background: url("/images/sprites.png") no-repeat 0px -90px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+@mixin sprites-acc_editing() {
+  background: url("/images/sprites.png") no-repeat 0px -120px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+@mixin sprites-acc_minus() {
+  background: url("/images/sprites.png") no-repeat 0px -150px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+@mixin sprites-acc_minus_dark() {
+  background: url("/images/sprites.png") no-repeat 0px -180px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+@mixin sprites-acc_plus() {
+  background: url("/images/sprites.png") no-repeat 0px -210px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+@mixin sprites-acc_plus_dark() {
+  background: url("/images/sprites.png") no-repeat 0px -240px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+@mixin sprites-amex() {
+  background: url("/images/sprites.png") no-repeat 0px -270px;
+  width: 50px;
+  height: 36px;
+}
+
+@mixin sprites-apple-touch-icon() {
+  background: url("/images/sprites.png") no-repeat 0px -306px;
+  width: 114px;
+  height: 114px;
+}
+
+@mixin sprites-best_site_award() {
+  background: url("/images/sprites.png") no-repeat 0px -420px;
+  width: 319px;
+  height: 459px;
+}
+
+@mixin sprites-bestmobilesite_landscape_banner() {
+  background: url("/images/sprites.png") no-repeat 0px -879px;
+  width: 460px;
+  height: 45px;
+}
+
+@mixin sprites-bestmobilesite_portrait_banner() {
+  background: url("/images/sprites.png") no-repeat 0px -924px;
+  width: 300px;
+  height: 45px;
+}
+
+@mixin sprites-bullet() {
+  background: url("/images/sprites.png") no-repeat 0px -969px;
+  width: 11px;
+  height: 12px;
+}
+
+@mixin sprites-cart() {
+  background: url("/images/sprites.png") no-repeat 0px -981px;
+  @include background-size(230px 932px);
+  width: 100px;
+  height: 100px;
+}
+
+@mixin sprites-disc() {
+  background: url("/images/sprites.png") no-repeat 0px -1081px;
+  width: 50px;
+  height: 36px;
+}
+
+@mixin sprites-drop_down_green() {
+  background: url("/images/sprites.png") no-repeat 0px -1117px;
+  width: 11px;
+  height: 6px;
+}
+
+@mixin sprites-flag() {
+  background: url("/images/sprites.png") no-repeat 0px -1123px;
+  @include background-size(230px 932px);
+  width: 300px;
+  height: 92px;
+}
+
+@mixin sprites-gw-10off() {
+  background: url("/images/sprites.png") no-repeat 0px -1215px;
+  width: 152px;
+  height: 30px;
+}
+
+@mixin sprites-gw-15percent() {
+  background: url("/images/sprites.png") no-repeat 0px -1245px;
+  width: 152px;
+  height: 29px;
+}
+
+@mixin sprites-gw-discount() {
+  background: url("/images/sprites.png") no-repeat 0px -1274px;
+  width: 152px;
+  height: 29px;
+}
+
+@mixin sprites-gw-ov() {
+  background: url("/images/sprites.png") no-repeat 0px -1303px;
+  width: 174px;
+  height: 30px;
+}
+
+@mixin sprites-gw() {
+  background: url("/images/sprites.png") no-repeat 0px -1333px;
+  width: 174px;
+  height: 30px;
+}
+
+@mixin sprites-icon_cart() {
+  background: url("/images/sprites.png") no-repeat 0px -1363px;
+  width: 20px;
+  height: 19px;
+}
+
+@mixin sprites-imoc_12705() {
+  background: url("/images/sprites.png") no-repeat 0px -1382px;
+  width: 320px;
+  height: 80px;
+}
+
+@mixin sprites-logo() {
+  background: url("/images/sprites.png") no-repeat 0px -1462px;
+  @include background-size(230px 932px);
+  width: 202px;
+  height: 100px;
+}
+
+@mixin sprites-master() {
+  background: url("/images/sprites.png") no-repeat 0px -1562px;
+  width: 50px;
+  height: 36px;
+}
+
+@mixin sprites-menu() {
+  background: url("/images/sprites.png") no-repeat 0px -1598px;
+  @include background-size(230px 932px);
+  width: 100px;
+  height: 100px;
+}
+
+@mixin sprites-phone() {
+  background: url("/images/sprites.png") no-repeat 0px -1698px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+@mixin sprites-search() {
+  background: url("/images/sprites.png") no-repeat 0px -1728px;
+  @include background-size(230px 932px);
+  width: 100px;
+  height: 100px;
+}
+
+@mixin sprites-visa() {
+  background: url("/images/sprites.png") no-repeat 0px -1828px;
+  width: 50px;
+  height: 36px;
+}
+
+.sprites-acc_arrow {
+  background: url("/images/sprites.png") no-repeat 0px 0px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+.sprites-acc_arrow_dark {
+  background: url("/images/sprites.png") no-repeat 0px -30px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+.sprites-acc_check {
+  background: url("/images/sprites.png") no-repeat 0px -60px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+.sprites-acc_checking {
+  background: url("/images/sprites.png") no-repeat 0px -90px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+.sprites-acc_editing {
+  background: url("/images/sprites.png") no-repeat 0px -120px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+.sprites-acc_minus {
+  background: url("/images/sprites.png") no-repeat 0px -150px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+.sprites-acc_minus_dark {
+  background: url("/images/sprites.png") no-repeat 0px -180px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+.sprites-acc_plus {
+  background: url("/images/sprites.png") no-repeat 0px -210px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+.sprites-acc_plus_dark {
+  background: url("/images/sprites.png") no-repeat 0px -240px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+.sprites-amex {
+  background: url("/images/sprites.png") no-repeat 0px -270px;
+  width: 50px;
+  height: 36px;
+}
+
+.sprites-apple-touch-icon {
+  background: url("/images/sprites.png") no-repeat 0px -306px;
+  width: 114px;
+  height: 114px;
+}
+
+.sprites-best_site_award {
+  background: url("/images/sprites.png") no-repeat 0px -420px;
+  width: 319px;
+  height: 459px;
+}
+
+.sprites-bestmobilesite_landscape_banner {
+  background: url("/images/sprites.png") no-repeat 0px -879px;
+  width: 460px;
+  height: 45px;
+}
+
+.sprites-bestmobilesite_portrait_banner {
+  background: url("/images/sprites.png") no-repeat 0px -924px;
+  width: 300px;
+  height: 45px;
+}
+
+.sprites-bullet {
+  background: url("/images/sprites.png") no-repeat 0px -969px;
+  width: 11px;
+  height: 12px;
+}
+
+.sprites-cart {
+  background: url("/images/sprites.png") no-repeat 0px -981px;
+  @include background-size(230px 932px);
+  width: 100px;
+  height: 100px;
+}
+
+.sprites-disc {
+  background: url("/images/sprites.png") no-repeat 0px -1081px;
+  width: 50px;
+  height: 36px;
+}
+
+.sprites-drop_down_green {
+  background: url("/images/sprites.png") no-repeat 0px -1117px;
+  width: 11px;
+  height: 6px;
+}
+
+.sprites-flag {
+  background: url("/images/sprites.png") no-repeat 0px -1123px;
+  @include background-size(230px 932px);
+  width: 300px;
+  height: 92px;
+}
+
+.sprites-gw-10off {
+  background: url("/images/sprites.png") no-repeat 0px -1215px;
+  width: 152px;
+  height: 30px;
+}
+
+.sprites-gw-15percent {
+  background: url("/images/sprites.png") no-repeat 0px -1245px;
+  width: 152px;
+  height: 29px;
+}
+
+.sprites-gw-discount {
+  background: url("/images/sprites.png") no-repeat 0px -1274px;
+  width: 152px;
+  height: 29px;
+}
+
+.sprites-gw-ov {
+  background: url("/images/sprites.png") no-repeat 0px -1303px;
+  width: 174px;
+  height: 30px;
+}
+
+.sprites-gw {
+  background: url("/images/sprites.png") no-repeat 0px -1333px;
+  width: 174px;
+  height: 30px;
+}
+
+.sprites-icon_cart {
+  background: url("/images/sprites.png") no-repeat 0px -1363px;
+  width: 20px;
+  height: 19px;
+}
+
+.sprites-imoc_12705 {
+  background: url("/images/sprites.png") no-repeat 0px -1382px;
+  width: 320px;
+  height: 80px;
+}
+
+.sprites-logo {
+  background: url("/images/sprites.png") no-repeat 0px -1462px;
+  @include background-size(230px 932px);
+  width: 202px;
+  height: 100px;
+}
+
+.sprites-master {
+  background: url("/images/sprites.png") no-repeat 0px -1562px;
+  width: 50px;
+  height: 36px;
+}
+
+.sprites-menu {
+  background: url("/images/sprites.png") no-repeat 0px -1598px;
+  @include background-size(230px 932px);
+  width: 100px;
+  height: 100px;
+}
+
+.sprites-phone {
+  background: url("/images/sprites.png") no-repeat 0px -1698px;
+  @include background-size(230px 932px);
+  width: 24px;
+  height: 30px;
+}
+
+.sprites-search {
+  background: url("/images/sprites.png") no-repeat 0px -1728px;
+  @include background-size(230px 932px);
+  width: 100px;
+  height: 100px;
+}
+
+.sprites-visa {
+  background: url("/images/sprites.png") no-repeat 0px -1828px;
+  width: 50px;
+  height: 36px;
+}
