@@ -146,7 +146,8 @@ class spritr
 			fwrite($fp, $content);
 			fclose($fp);
 			
-			echo "Processing complete.";
+			//echo "Processing complete.";
+			return true;
 		}
 	}
 
@@ -169,23 +170,32 @@ class spritr
 					break;
 				case 'MIXIN':
 					$content .= '@mixin sprites-'.$image['filename'].'() {'."\n";
-					$content .= '  background: url("'.$sprite_path.'") no-repeat 0px '.$top.'px;'."\n";
+					
 					if ($image['@2x']) {
-					$content .= '  @include background-size('.($total_width/2).'px '.($total_height/2).'px);'."\n";
+						$content .= '  background: url("'.$sprite_path.'") no-repeat 0px '.($top/2).'px;'."\n";
+						$content .= '  @include background-size('.($total_width/2).'px '.($total_height/2).'px);'."\n";
+						$content .= '  width: '.($image['width']/2).'px;'."\n";
+						$content .= '  height: '.($image['height']/2).'px;'."\n";
+					} else {
+						$content .= '  background: url("'.$sprite_path.'") no-repeat 0px '.$top.'px;'."\n";
+						$content .= '  width: '.$image['width'].'px;'."\n";
+						$content .= '  height: '.$image['height'].'px;'."\n";
 					}
-					$content .= '  width: '.$image['width'].'px;'."\n";
-					$content .= '  height: '.$image['height'].'px;'."\n";
 					$content .= '}'."\n";
 					$content .= "\n";
 					break;
 				case 'CLASS':
 					$content .= '.sprites-'.$image['filename'].' {'."\n";
-					$content .= '  background: url("'.$sprite_path.'") no-repeat 0px '.$top.'px;'."\n";
 					if ($image['@2x']) {
-					$content .= '  @include background-size('.($total_width/2).'px '.($total_height/2).'px);'."\n";
+						$content .= '  background: url("'.$sprite_path.'") no-repeat 0px '.($top/2).'px;'."\n";
+						$content .= '  @include background-size('.($total_width/2).'px '.($total_height/2).'px);'."\n";
+						$content .= '  width: '.($image['width']/2).'px;'."\n";
+						$content .= '  height: '.($image['height']/2).'px;'."\n";
+					} else {
+						$content .= '  background: url("'.$sprite_path.'") no-repeat 0px '.$top.'px;'."\n";
+						$content .= '  width: '.$image['width'].'px;'."\n";
+						$content .= '  height: '.$image['height'].'px;'."\n";
 					}
-					$content .= '  width: '.$image['width'].'px;'."\n";
-					$content .= '  height: '.$image['height'].'px;'."\n";
 					$content .= '}'."\n";
 					$content .= ($counter > 0)?"\n":'';
 					break;
